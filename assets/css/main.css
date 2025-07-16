@@ -86,6 +86,13 @@ h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
 }
+/*----- locked element -----------------*/
+.locked-element {
+  opacity: 0.5; /* Makes the element appear grayed out */
+  pointer-events: none; /* Prevents mouse interactions (clicks, hovers) */
+  /* Add other styles as needed, e.g., a "not-allowed" cursor */
+  cursor: not-allowed;
+}
 
 /* PHP Email Form Messages
 ------------------------------*/
